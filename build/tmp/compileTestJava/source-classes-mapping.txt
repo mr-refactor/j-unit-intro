@@ -1,2 +1,4 @@
 com/hello/HelloWorldTest.java
  com.hello.HelloWorldTest
+com/hello/CalculatorTest.java
+ com.hello.CalculatorTest
