@@ -8,7 +8,13 @@ class CalculatorTest {
 
     @Test
     void givenFourAndThreeAddResponseShouldBeSeven() {
-        int result = Calculator.add(3, 4);
-        assertEquals(7, result, "3+4 does not equal " + result);
+        int sum = Calculator.add(3, 4);
+        assertEquals(7, sum, "3+4 does not equal " + sum);
+    }
+
+    @Test
+    void givenEightAndFourSubtractResponseShouldBeFour(){
+        int difference = Calculator.subtract(8, 4);
+        assertEquals(4, difference, "8-4 does not equal " + difference);
     }
 }
