@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.hello.CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-29T04:01:48" hostname="macbooks-mbp.lan" time="0.021">
+<testsuite name="com.hello.CalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-29T04:08:14" hostname="macbooks-mbp.lan" time="0.021">
   <properties/>
-  <testcase name="givenFourAndThreeAddResponseShouldBeSeven()" classname="com.hello.CalculatorTest" time="0.018"/>
+  <testcase name="givenFourAndThreeAddResponseShouldBeSeven()" classname="com.hello.CalculatorTest" time="0.017"/>
   <testcase name="givenEightAndFourSubtractResponseShouldBeFour()" classname="com.hello.CalculatorTest" time="0.001"/>
+  <testcase name="givenSixAndThreeMultiplyResponseShouldBeEightteen()" classname="com.hello.CalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

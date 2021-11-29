@@ -17,4 +17,10 @@ class CalculatorTest {
         int difference = Calculator.subtract(8, 4);
         assertEquals(4, difference, "8-4 does not equal " + difference);
     }
+
+    @Test
+    void givenSixAndThreeMultiplyResponseShouldBeEightteen() {
+        int product = Calculator.multiply(6, 3);
+        assertEquals(18, product, "6 * 3 does not equal " + product);
+    }
 }
