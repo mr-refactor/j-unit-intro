@@ -23,4 +23,10 @@ class CalculatorTest {
         int product = Calculator.multiply(6, 3);
         assertEquals(18, product, "6 * 3 does not equal " + product);
     }
+
+    @Test
+    void givenTwentyAndFiveDivideResponseShouldBeFour() {
+        int quotient = Calculator.divide(20, 5);
+        assertEquals(4, quotient, "20 / 5 does not equal " + quotient);
+    }
 }
